@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation= "https://apps.nextcloud.com/schema/info.xsd">
+    <id>geminintegration</id>
+    <name>Gemini Integration</name>
+    <summary>Basic integration with Google Gemini API</summary>
+    <description><![CDATA[Provides basic Gemini features like text summarization for files.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence> <!-- Choose an appropriate license -->
+    <author>Your Name</author>
+    <namespace>GeminiIntegration</namespace> <!-- Important: Use this namespace in your PHP code -->
+    <dependencies>
+        <nextcloud min-version="25" max-version="28"/> <!-- Adjust based on target Nextcloud versions -->
+    </dependencies>
+    <settings>
+        <admin>OCA\GeminiIntegration\Settings\AdminSettings</admin> <!-- Points to Admin settings class -->
+    </settings>
+</info>
